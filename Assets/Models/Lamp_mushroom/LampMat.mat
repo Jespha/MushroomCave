@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FrillyshroomMat
+  m_Name: LampMat
   m_Shader: {fileID: 4800000, guid: a2020d6f10fc61849ba3a71d61754660, type: 3}
   m_ShaderKeywords: _READY_HARVEST_ON
   m_LightmapFlags: 0
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Albedo:
-        m_Texture: {fileID: 2800000, guid: 6dbf251c72b4f2143bc4ddf1b891cc8d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 17915867e384c9c4b90d9e80ca867b61, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Emission:
-        m_Texture: {fileID: 2800000, guid: 0f7084cf59c0c984f89feb805628b830, type: 3}
+        m_Texture: {fileID: 2800000, guid: d534014d9edab73459d610783df7599f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
-        m_Texture: {fileID: 2800000, guid: 0b2683a0f3a52b7408c70a3320d32633, type: 3}
+        m_Texture: {fileID: 2800000, guid: 24832a768e0062148aa2d9409694d02b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -72,23 +72,22 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Bias: 0.27
+    - _Bias: 0.1
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _EmmissionIntensity: 1.49
+    - _EmmissionIntensity: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
-    - _NormalStrenght1: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Power: 25.66
+    - _Power: 1.5
     - _Ready_Harvest: 1
-    - _Scale: -2.3
+    - _Scale: 0.48
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -96,6 +95,6 @@ Material:
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0.990566, g: 0.973514, b: 0.81768423, a: 1}
+    - _Color: {r: 0.3820755, g: 0.74713045, b: 1, a: 1}
+    - _EmissionColor: {r: 0.6556604, g: 1, b: 0.99018717, a: 1}
     - _FresnelColor: {r: 1, g: 1, b: 1, a: 0}
